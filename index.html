@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap 4</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Theme CSS File-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Media CSS File-->
+    <link rel="stylesheet" href="css/media.css">
+
+
+
+</head>
+
+<body>
+
+    <!--Tooltip Start-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <button type="button" class="btn btn-primary " data-toggle="tooltip" data-placement="top" title="Hello World">
+                        Tooltip on top
+                      </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Hello World">
+                        Tooltip on right
+                      </button>
+                    <button type="button" class="btn btn-success " data-toggle="tooltip" data-placement="bottom" title="Hello World">
+                        Tooltip on bottom
+                      </button>
+                    <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="left" title="Hello World">
+                        Tooltip on left
+                      </button>
+                </div>
+                <div class="col-lg-6">
+                    <button type="button" class="btn btn-success btn-sm" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                        Popover on top
+                      </button>
+
+                    <button type="button" class="btn btn-primary btn-sm" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                        Popover on right
+                      </button>
+
+                    <button type="button" class="btn btn-danger btn-sm" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+                      sagittis lacus vel augue laoreet rutrum faucibus.">
+                        Popover on bottom
+                      </button>
+
+                    <button type="button" class="btn btn-warning btn-sm" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                        Popover on left
+                      </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Tooltip End-->
+
+
+    <!--Progress Bar-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" ria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar  bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 50%" ria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Progress Bar-->
+
+    <!--Footer Section Start-->
+    <footer id="footer" class="text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn px-4 py-2 btn-primary mt-3 m-auto d-block" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--Footer Section End-->
+
+
+    <!--Contact Us-->
+    <div id="contactModal" class="modal">
+        <div class="container">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-white">Contact Us</h3>
+                        <button type="button" class="close border-0 bg-dark m_font" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="name" class="mb-1 text-white">Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter Your Name" name="Name" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="email" class="mb-1 text-white">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="Enter Your Email Address" name="Email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="message" class="mb-1 text-white">Message</label>
+                                <textarea name="message" id="message" class="form-control" name="Message" rows="4" required></textarea>
+                            </div>
+                            <input type="submit" value="Send" class="btn btn-primary px-4">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Us-->
+
+    <!--Navs-->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Skill</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+    </ul>
+    <!--Navs-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Scrolspy-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Our Course</a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="dropdown-item" href="#one">Web Design</a></li>
+                                    <li><a class="dropdown-item" href="#two">Graphic Design</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#three">Digital Marketing</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" tabindex="0">
+                        <h4 id="home">Home</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veniam maiores quae, tenetur culpa tempore, illum sunt nobis dolore in eum non sed amet possimus. Tempora enim culpa quis est expedita rerum, voluptatibus dolores
+                            nam similique iusto suscipit, molestias sapiente dolore quas assumenda odit facilis? Praesentium odio laborum tempora corporis molestiae minima laudantium vel! Explicabo repellendus omnis quibusdam ut amet nobis. Aut non cupiditate
+                            vero commodi! Esse illum ad hic illo adipisci corporis et rerum sed eveniet inventore ducimus voluptatum voluptatibus tempora libero repellat deleniti quod vitae quos, assumenda, unde suscipit accusantium! Deleniti architecto
+                            at dicta earum consectetur! Libero, nemo!</p>
+                        <h4 id="about">about</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veniam maiores quae, tenetur culpa tempore, illum sunt nobis dolore in eum non sed amet possimus. Tempora enim culpa quis est expedita rerum, voluptatibus dolores
+                            nam similique iusto suscipit, molestias sapiente dolore quas assumenda odit facilis? Praesentium odio laborum tempora corporis molestiae minima laudantium vel! Explicabo repellendus omnis quibusdam ut amet nobis. Aut non cupiditate
+                            vero commodi! Esse illum ad hic illo adipisci corporis et rerum sed eveniet inventore ducimus voluptatum voluptatibus tempora libero repellat deleniti quod vitae quos, assumenda, unde suscipit accusantium! Deleniti architecto
+                            at dicta earum consectetur! Libero, nemo!</p>
+                        <h4 id="one">Web Design</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veniam maiores quae, tenetur culpa tempore, illum sunt nobis dolore in eum non sed amet possimus. Tempora enim culpa quis est expedita rerum, voluptatibus dolores
+                            nam similique iusto suscipit, molestias sapiente dolore quas assumenda odit facilis? Praesentium odio laborum tempora corporis molestiae minima laudantium vel! Explicabo repellendus omnis quibusdam ut amet nobis. Aut non cupiditate
+                            vero commodi! Esse illum ad hic illo adipisci corporis et rerum sed eveniet inventore ducimus voluptatum voluptatibus tempora libero repellat deleniti quod vitae quos, assumenda, unde suscipit accusantium! Deleniti architecto
+                            at dicta earum consectetur! Libero, nemo!</p>
+                        <h4 id="two">Graphic Design</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veniam maiores quae, tenetur culpa tempore, illum sunt nobis dolore in eum non sed amet possimus. Tempora enim culpa quis est expedita rerum, voluptatibus dolores
+                            nam similique iusto suscipit, molestias sapiente dolore quas assumenda odit facilis? Praesentium odio laborum tempora corporis molestiae minima laudantium vel! Explicabo repellendus omnis quibusdam ut amet nobis. Aut non cupiditate
+                            vero commodi! Esse illum ad hic illo adipisci corporis et rerum sed eveniet inventore ducimus voluptatum voluptatibus tempora libero repellat deleniti quod vitae quos, assumenda, unde suscipit accusantium! Deleniti architecto
+                            at dicta earum consectetur! Libero, nemo!</p>
+                        <h4 id="three">Digital Marketing</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veniam maiores quae, tenetur culpa tempore, illum sunt nobis dolore in eum non sed amet possimus. Tempora enim culpa quis est expedita rerum, voluptatibus dolores
+                            nam similique iusto suscipit, molestias sapiente dolore quas assumenda odit facilis? Praesentium odio laborum tempora corporis molestiae minima laudantium vel! Explicabo repellendus omnis quibusdam ut amet nobis. Aut non cupiditate
+                            vero commodi! Esse illum ad hic illo adipisci corporis et rerum sed eveniet inventore ducimus voluptatum voluptatibus tempora libero repellat deleniti quod vitae quos, assumenda, unde suscipit accusantium! Deleniti architecto
+                            at dicta earum consectetur! Libero, nemo!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Scrolspy-->
+
+
+
+    <!--Bootstrap JS files-->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
